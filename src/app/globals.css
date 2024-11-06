@@ -15,8 +15,8 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  
+   
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -24,4 +24,18 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+.gradientText{
+  background: -webkit-linear-gradient(315deg, #ffd334 0%, #ffae00 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* .slider-arrow{
+  background-color: #fff;
+  box-shadow: 0 1px 4px 0 rgba(0, 106, 194, .2);
+} */
+
+.image-gallery-left-nav .image-gallery-svg, .image-gallery-right-nav .image-gallery-svg {
+  height: 49px!important;
+  width: 30px!important;
 }
