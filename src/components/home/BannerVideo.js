@@ -26,10 +26,12 @@ export default function BannerVideo() {
             <div className="container mx-auto w-full overflow-hidden">
                 <Slider {...settings}>
                     <div>
-                        <Image src={images[0]}  className="max-w-full w-full" alt='Parth Sarthi' />
+                        <Image src={images[0]}  width={1920} 
+                                height={1080}   className="max-w-full w-full" alt='Parth Sarthi' />
                     </div>
                     <div>
-                        <Image src={images[0]}  className="max-w-full  w-full" alt='Parth Sarthi' />
+                        <Image src={images[0]}  width={1920} 
+                                height={1080}   className="max-w-full  w-full" alt='Parth Sarthi' />
                     </div>
                     
 

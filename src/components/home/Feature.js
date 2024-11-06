@@ -4,7 +4,7 @@ import Link from "next/link";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { MoveRight, MoveLeft, ArrowRight } from 'lucide-react';
-import FeaturedCard from "../card/featuredCard";
+import FeaturedCard from "../card/FeaturedCard";
 import Slider from "react-slick";
 
 
